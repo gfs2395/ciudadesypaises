@@ -1,0 +1,18 @@
+.droppable  { 
+    width: 90px; height: 50px; padding: 0.5em; float: left;
+    margin: 0px 5px 10px 0;
+    border: 1px solid red;  
+    background-color:#B9CD6D;
+ }
+ 
+ .draggable { 
+    width: 100px; height: 90px;padding: 0.5em; float: left; 
+    margin: 10px; 
+    border: 1px solid black; 
+    background-color:#A39480;
+ }
+
+ .droppable.active { 
+    background-color: red; 
+ }
+ #mapid { height: 180px; }
